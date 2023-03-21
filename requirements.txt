@@ -2,7 +2,7 @@ pandas==1.5.3
 numpy==1.24.2
 seaborn==0.12.2
 matplotlib==3.7.1
-scikit==1.2.2
+scikit==1.2.0
 xgboost==1.7.4
 dill==0.3.6
 flask==2.2.3
