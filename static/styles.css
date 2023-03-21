@@ -206,9 +206,9 @@ img {
     font-size: 17px;
     padding: 5px;
     cursor: pointer;
-    margin: 25px;
+    margin: 8px;
     margin-left: 12px;
-    width: 60%;
+    width: fit-content;
 }
 .login .btn:hover{
   background: linear-gradient(to right,rgb(58, 3, 70),rgb(99, 6, 6));
