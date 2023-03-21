@@ -7,4 +7,5 @@ xgboost==1.7.4
 dill==0.3.6
 flask==2.2.3
 gunicorn==20.1.0
+python-math==0.0.1
 -e .
