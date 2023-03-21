@@ -113,7 +113,29 @@ h1{
   box-shadow: 0 0 15px rgba(65, 64, 64, 0.5);
 
 }
+.login #mark-w input{
+  background-color: rgb(158, 194, 194);
+  border-radius: 5px;
+  border: none;
+  outline:none;
+  padding: 5px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(5, 24, 41);
+  font-weight: 600;
+  height: 35px;
+  width: 30%;
+  box-shadow: 0 0 15px rgba(65, 64, 64, 0.5);
+
+}
 .login #mark input::placeholder{
+  padding: 5px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(58, 69, 78);
+  font-weight: 500;
+  height: 35px;
+  
+}
+.login #mark-w input::placeholder{
   padding: 5px;
   font-family: 'Poppins', sans-serif;
   color: rgb(58, 69, 78);
@@ -219,7 +241,7 @@ img {
         width: 60%;
   
       }
-      .login #mark input{
+      .login #mark input,.login #mark-w input{
         background-color: rgb(158, 194, 194);
         border-radius: 5px;
         border: none;
@@ -234,6 +256,14 @@ img {
 
       }
       .login #mark input::placeholder{
+        padding: 5px;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(58, 69, 78);
+        font-weight: 500;
+        height: 35px;
+        
+      }
+      .login #mark-w input::placeholder{
         padding: 5px;
         font-family: 'Poppins', sans-serif;
         color: rgb(58, 69, 78);
