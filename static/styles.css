@@ -1,0 +1,280 @@
+@media only screen and (min-width: 1200px) {
+.login{
+  background-color:#9b93e4;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(5, 24, 41);
+  align-items: center;
+  max-width: 90%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  padding: 15px;
+  margin-left: 30px;
+  box-shadow:none;
+  width: 40%;
+
+}
+.git{
+  display: flex;
+  width: 40%;
+  margin-left: 30px;
+  padding: 10px;
+  
+}
+.git h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  flex-wrap:wrap
+
+}
+body{
+    background-color: #7e7b99;
+    align-items: center;
+}
+h1{
+    font-weight: 500;
+    background-color:#272727;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    align-items: center;
+    max-width: 40%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    padding: 15px;
+    margin-left: 30px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.5);
+
+
+}
+
+.login .mb-3{
+    align-items: center;
+    padding: 10px;
+}
+.login .mb-3 select{
+  background-color: rgb(158, 194, 194);
+  border-radius: 5px;
+  border: none;
+  outline:none;
+  padding: 5px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(5, 24, 41);
+  font-weight: 600;
+  height: 40px;
+  width: 31%;
+  box-shadow: 0 0 15px rgba(65, 64, 64, 0.5);
+
+}
+.login .mb-3 select option{
+  background-color: rgb(158, 194, 194);
+  border-radius: 5px;
+  border: none;
+  outline:none;
+  padding: 5px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(5, 24, 41);
+  font-weight: 500;
+  height: 39px;
+  width: 28%;
+
+}
+.login .btn{
+    background: linear-gradient(to right,rgb(9, 143, 92),rgb(21, 159, 201));
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 12px;
+    margin-top: 19px;
+}
+.login .btn:hover{
+  background: linear-gradient(to right,rgb(99, 189, 224),rgb(196, 224, 69));
+  color: rgb(14, 13, 13);
+
+}
+.login #mark input{
+  background-color: rgb(158, 194, 194);
+  border-radius: 5px;
+  border: none;
+  outline:none;
+  padding: 5px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(5, 24, 41);
+  font-weight: 600;
+  height: 35px;
+  width: 30%;
+  box-shadow: 0 0 15px rgba(65, 64, 64, 0.5);
+
+}
+.login #mark input::placeholder{
+  padding: 5px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(58, 69, 78);
+  font-weight: 500;
+  height: 35px;
+  
+}
+a {
+  display: inline-block;
+  margin: 10px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+}
+@media only screen and (max-width: 767px) {
+  body{
+    background-color: #7e7b99;
+    align-items: center;
+}
+    .login{
+        background-color:#9b93e4;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(5, 24, 41);
+        align-items: center;
+        max-width: 90%;
+        justify-content: center;
+        align-items: center;
+        border-radius: 35px;
+        padding: 15px;
+        margin: 18px;
+        box-shadow:none;
+
+   }
+   h2{
+     margin-left: 20px;
+   }
+   h1{
+   
+    font-weight: 500;
+    background-color:#272727;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    align-items: center;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.5);
+
+   }
+   .login .mb-3{
+    align-items: center;
+    padding: 10px;
+}
+   .login .btn{
+    background: linear-gradient(to right,rgb(5, 95, 61),rgb(6, 77, 99));
+    font-family: 'Poppins', sans-serif;
+    color: rgb(219, 216, 216);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    padding: 7px;
+    cursor: pointer;
+    margin: 25px;
+    margin-left: 12px;
+    width: 58%;
+}
+.login .btn:hover{
+  background: linear-gradient(to right,rgb(58, 3, 70),rgb(99, 6, 6));
+
+}
+  .login .mb-3 select{
+      background-color: rgb(158, 194, 194);
+      border-radius: 5px;
+      border: none;
+      outline:none;
+      padding: 5px;
+      font-family: 'Poppins', sans-serif;
+      color: rgb(5, 24, 41);
+      font-weight: 600;
+      height: 35px;
+      width: 60%;
+      box-shadow: 0 0 15px rgba(65, 64, 64, 0.5);
+
+    }
+    .login .mb-3 select option{
+        background-color: rgb(158, 194, 194);
+        border-radius: 5px;
+        border: none;
+        outline:none;
+        padding: 5px;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(5, 24, 41);
+        font-weight: 500;
+        height: 35px;
+        width: 60%;
+  
+      }
+      .login #mark input{
+        background-color: rgb(158, 194, 194);
+        border-radius: 5px;
+        border: none;
+        outline:none;
+        padding: 5px;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(5, 24, 41);
+        font-weight: 600;
+        height: 35px;
+        width: 58%;
+        box-shadow: 0 0 15px rgba(65, 64, 64, 0.5);
+
+      }
+      .login #mark input::placeholder{
+        padding: 5px;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(58, 69, 78);
+        font-weight: 500;
+        height: 35px;
+        
+      }
+      a {
+        display: inline-block;
+        margin: 10px;
+      }
+      
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      }
+      .git{
+        display: flex;
+        width: 90%;
+        margin-left: 10px;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .git h2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        flex-wrap:wrap
+      
+      }
+  }
+
+
+
+
+
+
+
+
+
+  
