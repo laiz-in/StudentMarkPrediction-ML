@@ -3,7 +3,7 @@ from flask import Flask,request,render_template
 import numpy as np
 import pandas as pd
 import math
-
+from src.logger import logging
 from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData,PredictPipeline
 
@@ -26,8 +26,8 @@ def predict_datapoint():
             parental_level_of_education=request.form.get('parental_level_of_education'),
             lunch=request.form.get('lunch'),
             test_preparation_course=request.form.get('test_preparation_course'),
-            reading_score=float(request.form.get('writing_score')),
-            writing_score=float(request.form.get('reading_score'))
+            reading_score=float(request.form.get('reading_score')),
+            writing_score=float(request.form.get('writing_score'))
 
         )
         pred_df=data.get_data_as_data_frame()
@@ -36,6 +36,7 @@ def predict_datapoint():
         results=predict_pipeline.predict(pred_df)
         results=int(math.floor(min(results[0],100)))
         output= f"the predicted math score is {results}"
+        logging.info("predicted the output")
         return render_template('home.html',results=output)
     
 
