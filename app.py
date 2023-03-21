@@ -32,9 +32,9 @@ def predict_datapoint():
         )
         pred_df=data.get_data_as_data_frame()
 
-        # predict_pipeline=PredictPipeline()
-        # results=predict_pipeline.predict(pred_df)
-        # results=int(math.floor(min(results[0],100)))
+        predict_pipeline=PredictPipeline()
+        results=predict_pipeline.predict(pred_df)
+        results=int(math.floor(min(results[0],100)))
         results=pred_df
         output= f"the predicted math score is {results}"
         logging.info("predicted the output")
